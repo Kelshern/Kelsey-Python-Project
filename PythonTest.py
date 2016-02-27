@@ -1,6 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import scipy.stats as stats
+
+# this file is for Kelsey Hern
 # This loads the data from the csv file
 data = np.recfromcsv("Adult.csv", delimiter = ",", skip_header=2)
 ## currently data is an array of the rows, we need to chose what
